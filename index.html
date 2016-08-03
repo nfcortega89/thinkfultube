@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <meta charset="Thinkful Tube">
     <title>Thinkful Tube</title>
@@ -12,14 +13,20 @@
     <div class="container">
         <header>
             <h1>Thinkful Tube</h1></header>
+            <h2>Search any video and click to view</h2>
         <form id="search-term">
             <input id="query" type="text">
             <button type="submit">Submit</button>
         </form>
         <div id="search-results">
         </div>
+        <div class="buttons">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="app.js"></script>
 </body>
 

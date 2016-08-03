@@ -25,12 +25,24 @@ h1 {
     text-align: center;
     margin-top: 5px;
 }
+h2 {
+    font-size: 14px;
+    margin-top: -24px;
+    padding-bottom: 13px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+
+}
 form {
 	text-align: center;
 	padding-bottom: 20px;
 }
 input {
 	color: black;
+    width: 250px;
 }
 button {
 	color:black;
@@ -38,6 +50,17 @@ button {
 #search-results{
 text-align: center;
 }
+.buttons{
+text-align: center;
+padding-bottom: 10px;
+}
 #search-results img{
 	padding-bottom: 5px;
+}
+.lightbox {
+    display: none;
+}
+.next, .prev {
+    text-align: center;
+    display: none;
 }
